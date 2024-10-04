@@ -25,17 +25,17 @@
         <h2>Рекомендуемые пробники парфюма</h2>
         <div class="product-grid">
             <div class="product">
-                <img <img src="IMG_0664.webp" alt="Montale Chocolate Greedy" width="200">
+                <img <img src="photo_2024-10-04_16-07-45.jpg" alt="Montale Chocolate Greedy" width="300">
                 <h3>Montale Chocolate Greedy 5ml</h3>
                 <p>Насыщенные шоколадные и ванильные ноты.</p>
             </div>
             <div class="product">
-                <img src="IMG_0661.jpeg" alt="Jean Paul Gaultier Le Male Elixir 5ml" width="200">
+                <img src="photo_2024-10-04_16-07-50.jpg" alt="Jean Paul Gaultier Le Male Elixir 5ml" width="300">
                 <h3>Jean Paul Gaultier Le Male Elixir 5ml</h3>
                 <p>Смесь восточных и древесных ароматов с ванилью.</p>
             </div>
             <div class="product">
-                <img src="IMG_0660.jpeg" alt="Prada l’homme 5ml" width="200">
+                <img src="photo_2024-10-04_16-07-47.jpg" alt="Prada l’homme 5ml" width="300">
                 <h3>Prada l’homme 5ml</h3>
                 <p>Элегантный аромат с нотами ириса и амбры.</p>
             </div>
