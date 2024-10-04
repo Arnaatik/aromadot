@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Магазин пробников парфюма">
+    <title>Aromadot - Пробники парфюма</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Главная</a></li>
+                <li><a href="#about">О нас</a></li>
+                <li><a href="#products">Продукты</a></li>
+                <li><a href="#contact">Контакты</a></li>
+            </ul>
+        </nav>
+        <h1>Aromadot</h1>
+        <p>Изысканные пробники парфюма с доставкой на дом</p>
+    </header>
+
+    <section id="home">
+        <h2>Рекомендуемые пробники парфюма</h2>
+        <div class="product-grid">
+            <div class="product">
+                <img <img src="IMG_0664.webp" alt="Montale Chocolate Greedy" width="200">
+                <h3>Montale Chocolate Greedy 5ml</h3>
+                <p>Насыщенные шоколадные и ванильные ноты.</p>
+            </div>
+            <div class="product">
+                <img src="IMG_0661.jpeg" alt="Jean Paul Gaultier Le Male Elixir 5ml" width="200">
+                <h3>Jean Paul Gaultier Le Male Elixir 5ml</h3>
+                <p>Смесь восточных и древесных ароматов с ванилью.</p>
+            </div>
+            <div class="product">
+                <img src="IMG_0660.jpeg" alt="Prada l’homme 5ml" width="200">
+                <h3>Prada l’homme 5ml</h3>
+                <p>Элегантный аромат с нотами ириса и амбры.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>О нас</h2>
+        <p>В Aromadot мы уверены в силе аромата. Каждый пробник парфюма тщательно отбирается, чтобы подарить вам лучшие ароматы со всего мира.</p>
+    </section>
+
+    <section id="products">
+        <h2>Наши коллекции</h2>
+        <div class="product-grid">
+            <!-- You can add more products here later -->
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Контакты</h2>
+       <p>Email: aromadot@mail.ru</p>
+        <p>Телефон:+7 (708) 177-09-87</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Aromadot. Все права защищены.</p>
+    </footer>
+</body>
+</html
