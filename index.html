@@ -7,41 +7,58 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <div class="hero-section">
+        <div class="hero-overlay">
+            <h1>Добро пожаловать в Aromadot</h1>
+            <p>Испытайте роскошь мировых парфюмерных брендов по доступным ценам с нашими эксклюзивными пробниками. <br>
+            Aromadot — Ваш проводник в мир утонченных ароматов.</p>
+        </div>
+    </div>
+
     <div class="container">
-        <h1>Добро пожаловать в Aromadot</h1>
-        <p>Выберите один из наших ароматов ниже, чтобы узнать больше:</p>
+        <h2>Каталог Aromadot</h2>
+        <p>Выберите один из наших ароматов ниже:</p>
 
         <div class="perfume" onclick="toggleSizes('sizes1')">
+            <img src="images/montale-chocolate-greedy.jpg" alt="Montale Chocolate Greedy" class="perfume-img">
             <h2>Montale Chocolate Greedy</h2>
             <p class="perfume-description">Роскошный и насыщенный аромат с нотами шоколада и ванили.</p>
             <div id="sizes1" class="sizes">
-                <div class="size-option">1 мл</div>
-                <div class="size-option">2 мл</div>
-                <div class="size-option">5 мл</div>
-                <div class="size-option">10 мл</div>
+                <button onclick="addToBasket('Montale Chocolate Greedy', '1ml')">1 мл</button>
+                <button onclick="addToBasket('Montale Chocolate Greedy', '2ml')">2 мл</button>
+                <button onclick="addToBasket('Montale Chocolate Greedy', '5ml')">5 мл</button>
+                <button onclick="addToBasket('Montale Chocolate Greedy', '10ml')">10 мл</button>
             </div>
         </div>
 
         <div class="perfume" onclick="toggleSizes('sizes2')">
+            <img src="images/jpg-le-male-elixir.jpg" alt="Jean Paul Gaultier Le Male Elixir" class="perfume-img">
             <h2>Jean Paul Gaultier Le Male Elixir</h2>
             <p class="perfume-description">Соблазнительный аромат с нотами лаванды, ванили и амбры.</p>
             <div id="sizes2" class="sizes">
-                <div class="size-option">1 мл</div>
-                <div class="size-option">2 мл</div>
-                <div class="size-option">5 мл</div>
-                <div class="size-option">10 мл</div>
+                <button onclick="addToBasket('Jean Paul Gaultier Le Male Elixir', '1ml')">1 мл</button>
+                <button onclick="addToBasket('Jean Paul Gaultier Le Male Elixir', '2ml')">2 мл</button>
+                <button onclick="addToBasket('Jean Paul Gaultier Le Male Elixir', '5ml')">5 мл</button>
+                <button onclick="addToBasket('Jean Paul Gaultier Le Male Elixir', '10ml')">10 мл</button>
             </div>
         </div>
 
         <div class="perfume" onclick="toggleSizes('sizes3')">
+            <img src="images/prada-lhomme.jpg" alt="Prada L’Homme" class="perfume-img">
             <h2>Prada L’Homme</h2>
             <p class="perfume-description">Свежий и утонченный аромат с нотами ириса и амбры.</p>
             <div id="sizes3" class="sizes">
-                <div class="size-option">1 мл</div>
-                <div class="size-option">2 мл</div>
-                <div class="size-option">5 мл</div>
-                <div class="size-option">10 мл</div>
+                <button onclick="addToBasket('Prada L’Homme', '1ml')">1 мл</button>
+                <button onclick="addToBasket('Prada L’Homme', '2ml')">2 мл</button>
+                <button onclick="addToBasket('Prada L’Homme', '5ml')">5 мл</button>
+                <button onclick="addToBasket('Prada L’Homme', '10ml')">10 мл</button>
             </div>
+        </div>
+        
+        <div class="basket">
+            <h2>Ваша корзина</h2>
+            <ul id="basket-list"></ul>
+            <button onclick="viewBasket()">Просмотреть корзину</button>
         </div>
     </div>
 
